@@ -6,3 +6,10 @@ article
     padding: 15px;
     font-size: 100%;
 }
+footer
+{
+    color: rgb(27, 24, 24);
+    min-height: 15vh;
+    padding: 15px;
+    font-size: 200%;
+}
