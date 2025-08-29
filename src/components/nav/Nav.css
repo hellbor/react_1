@@ -13,3 +13,55 @@ nav > ul > li > a
     color: black;
     font-size: 24px;
 }
+.nav 
+{
+    background: linear-gradient(135deg, #212b2f 0%, #2f8db5 100%);
+}
+
+.nav-item 
+{
+    position: relative;
+}
+.nav-ul 
+{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 20rem;
+}
+.nav-link 
+{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    border-radius: 4px;
+    transition: all 0.3 ease;
+    position: relative;
+}
+.nav-link:hover {
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+.nav-link.hovered {
+    background: rgba(255, 255, 255, 0.15);
+}
+.nav-link:hover 
+{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+}
+.nav-link:hover::after 
+{
+    width: 100%;
+}
