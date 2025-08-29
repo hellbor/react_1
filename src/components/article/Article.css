@@ -14,3 +14,45 @@ article
 .card {
     text-align: center;
 }
+.card:hover 
+{
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+.card img
+{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+.card .name
+{
+    font-size:18px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 8px;
+}
+.card .gender
+{
+    font-size: 16px;
+    color: #666;
+    font-weight: 500;
+    margin-bottom: 8px;
+    margin-left: 40px;
+}
+.card .gender img 
+{
+  width: 32px;
+  height: 32px;
+  border: none;
+  margin: 0;
+  border-radius: 0;
+  object-fit: contain;
+}
+.card .age
+{
+    font-size: 16px;
+    color: #666;
+    font-weight: 500;
+}
