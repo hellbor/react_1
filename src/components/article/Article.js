@@ -22,14 +22,14 @@ function Article(props) {
             })
         }
 
-            <div className='card'>
+            {/* <div className='card'>
                 <img src={props.db.photo} alt="Photo"/>
                 <div className='name'>{props.db.name} {props.db.surname}</div>
                 <div className='gender'>
                     <img src={gender} alt="Gender"/>
                 </div>
                 <div className='age'>{props.db.age}</div>
-            </div>
+            </div> */}
                 
             </div>
             
